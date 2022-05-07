@@ -1,0 +1,28 @@
+.a{
+color: rgb(143, 237, 143);
+}
+.b{
+color: rgb(20, 107, 20);
+}
+.a{
+background-color: rgb(20, 114, 20);
+}
+.b{
+background-color: rgb(128, 247, 128);
+}
+
+#heading{
+    font-style: oblique;
+    font-family: fantasy;
+}
+body{
+    background-color: aquamarine;
+}
+.category{
+    font-family: 'Times New Roman';
+    font-style: inherit;
+}
+#answer{
+    font-family: monospace;
+    font-size: 30;
+}

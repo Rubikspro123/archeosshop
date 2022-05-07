@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Archeos Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="java.js"></script>
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+<body>
+    <div class="container">
+        <center><h3 id="heading">Archeos Shop Calculator</h3></center>
+        <span>
+        <span>
+            <h4 class="category">Coffee</h4>
+            <button onclick="smalladdhotcoffee()" class="a" type="button">Small Hot Coffee</button>
+            <button onclick="smalladdcoldcoffee()" class="b" type="button">Small Cold Coffee</button>
+            <button onclick="bigaddhotcoffee()" class="a" type="button">Big Hot Coffee</button>
+            <button onclick="bigaddcoldcoffee()" class="b" type="button">Big Cold Coffee</button>
+        </span>
+        <span>
+            <h4 class="category">Snacks</h4>
+            <button onclick="addChips()" class="a" type="button">Chips</button>
+            <button onclick="addsmallwafer()" class="b" type="button">Small Wafer</button>
+            <button onclick="addbigwafer()" class="a" type="button">Big Wafer</button>
+        </span>
+        <span>
+            <h4 class="category">Cakes and Juices</h4>
+            <button onclick="addbase()" class="b" type="button">Cake Base</button>
+            <button onclick="addvanillacream()" class="a" type="button">Vanilla Cream</button>
+            <button onclick="addchocolatecream()" class="b" type="button">Chocolate Cream</button>
+            <button onclick="addgrape()" class="a" type="button">Grapes</button>
+            <button onclick="addstrawberry()" class="b" type="button">Strawberries</button>
+            <button onclick="addchocomilk()" class="a" type="button">Choco Milk</button>
+            <button onclick="addwater()" class="b" type="button">Water</button>
+        </span>
+        <span>
+            <h4 class="category">Pies and Blizzard</h4>
+            <button onclick="addstrawberrypie()" class="a" type="button">Strawberry Pie</button>
+            <button onclick="adddarkstrawberrypie()" class="b" type="button">Dark Strawberry</button>
+            <button onclick="addblizzard()" class="a" type="button">Blizzard Cream</button>
+            <button onclick="addcone()" class="b" type="button">Cones</button>
+        </span>
+        <span>
+            <h4 class="category">Fuel, Batteries and Water Supply</h4>
+            <button onclick="addsmallfuel()" class="a" type="button">Small Fuel</button>
+            <button onclick="addmediumfuel()" class="b" type="button">Medium Fuel</button>
+            <button onclick="addaveragefuel()" class="a" type="button">Average Fuel</button>
+            <button onclick="addbigfuel()" class="b" type="button">Big Fuel</button>
+            <button onclick="addbiggestfuel()" class="a" type="button">Biggest Fuel</button>
+            <button onclick="addbigwater()" class="b" type="button">Big Water</button>
+            <button onclick="addbatteries()" class="a" type="button">Batteries</button>
+        </span>
+        <h4 id="answer"></h4>    
+
+        <iframe width="500" height="610" src="https://www.online-calculator.com/full-screen-calculator/"></iframe></span>
+    </div>
+</body>
